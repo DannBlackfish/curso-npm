@@ -8,5 +8,19 @@
   },
   "keywords": [],
   "author": "Daniela Alonzo <dann_ixchel@outlook.es>",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "moment": "^2.29.1",
+    "webpack": "^5.39.0"
+  },
+  "devDependencies": {
+    "date-fns": "^2.22.1"
+  },
+  "optionalDependencies": {
+    "eslint": "^7.28.0"
+  },
+  "bin": {
+    "random-msg": "./bin/global.js"
+  },
+  "preferGlobal": true
 }
